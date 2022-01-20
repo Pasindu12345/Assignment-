@@ -1,0 +1,140 @@
+package com.info.java;
+
+public class Swapdemo{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("as-1");
+		int i=500, j= 200;
+		System.out.println("\n"+"Before");
+		System.out.println("i :"+i+"\n"+"j= :" +j);
+		
+		int t =0;
+		t = i;
+		i=j;
+		j=t;
+		System.out.println("\n"+"After");
+		System.out.println("i :"+i+"\n"+"j= :" +j);
+		
+		
+		
+		System.out.println("\n"+"\n"+"as-2");
+		int k=100, l= 30000;
+		System.out.println("\n"+"Before");
+		System.out.println("k :"+k+"\n"+"l= :" +l);
+		
+		
+		k=l+k;
+		l=k-l;
+		k=k-l;
+		System.out.println("\n"+"After");
+		System.out.println("k :"+k+"\n"+"l= :" +l);
+		
+		
+		
+		System.out.println("\n"+"\n"+"as-3");
+		int x=500, y= 200, z=400;
+		System.out.println("\n"+"Before");
+		System.out.println("x :"+x+"\n"+"y= :" +y+"\n"+"z :"+z);
+		
+		int w =0;
+		w = x;
+		x=y;
+		y=z;
+		z=w;
+		System.out.println("\n"+"After");
+		System.out.println("x :"+x+"\n"+"y= :" +y+"\n"+"z :"+z);
+		
+		
+		
+		
+
+		System.out.println("\n"+"\n"+"as-4");
+		int a=500, b= 200, c=400;
+		System.out.println("\n"+"Before");
+		System.out.println("a :"+a+"\n"+"b= :" +b+"\n"+"c :"+c);
+		
+		
+		
+		a=a+b+c;
+		b=a-b-c;
+		c=a-b-c;
+		a=a-b-c;
+		System.out.println("\n"+"after");
+		System.out.println("a :"+a+"\n"+"b= :" +b+"\n"+"c :"+c);
+		
+		
+		
+		
+		System.out.println("\n"+"\n"+"as-5");
+		int p=500, q= 200, r=400, s=800;
+		System.out.println("\n"+"Before");
+		System.out.println("p :"+p+"\n"+"q= :" +q+"\n"+"r :"+r+"\n"+"s :"+s);
+		
+		
+		t=0;
+		t=p;
+		p=q;
+		q=r;
+		r=s;
+		s=t;
+		System.out.println("\n"+"after");
+		System.out.println("p :"+p+"\n"+"q= :" +q+"\n"+"r :"+r+"\n"+"s :"+s);
+		
+		
+		
+		System.out.println("\n"+"\n"+"as-6");
+		int aa=500, bb= 200, cc=400, dd=800;
+		System.out.println("\n"+"Before");
+		System.out.println("aa :"+aa+"\n"+"bb= :" +bb+"\n"+"cc :"+cc+"\n"+"dd :"+dd);
+		
+		aa=aa+bb+cc+dd;
+		bb=aa-bb-cc-dd;
+		cc=aa-bb-cc-dd;
+		dd=aa-bb-cc-dd;
+		aa=aa-bb-cc-dd;
+		System.out.println("\n"+"Before");
+		System.out.println("aa :"+aa+"\n"+"bb= :" +bb+"\n"+"cc :"+cc+"\n"+"dd :"+dd);
+		
+		
+		
+		System.out.println("\n"+"\n"+"as-7");
+		int pln = 699;
+		double gst = 0.18;
+		double gstt = pln*gst;
+		double totalCost= pln+gstt;
+		System.out.println("Pln + gst = INR "+totalCost);
+		
+		
+		
+		System.out.println("\n"+"\n"+"as-8");
+		int costOfPizza = 399;
+		int totalNumPizza= 2;
+		int costForTwoPizza= costOfPizza*totalNumPizza;
+		double discount = 0.20;
+		double discoutValue = costForTwoPizza*discount;
+		double billValue= costForTwoPizza-discoutValue;
+		System.out.println("Bill value = INR "+billValue);
+		
+		
+		System.out.println("\n"+"\n"+"as-9");
+		int salary = 85000;
+		double tax = 0.20;
+		double taxAmount = salary*tax;
+		System.out.println("Tax amount = "+taxAmount);
+		
+		
+		
+		System.out.println("\n"+"\n"+"as-10");
+		int dpst= 500000;
+		int time = 5;
+		double intrst = 6.8;
+		double intrstAmount = dpst*time*intrst;
+		double finalAmount = intrstAmount+dpst;
+		System.out.println("Interest amount = "+intrstAmount);
+		System.out.println("Final amount = "+finalAmount);
+		
+		
+		
+		
